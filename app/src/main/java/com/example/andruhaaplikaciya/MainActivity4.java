@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
             }
 
             public void toLogin(){
-                Intent intent = new Intent(MainActivity4.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity4.this, MainActivity5.class);
                 startActivity(intent);
                 finish();
             }

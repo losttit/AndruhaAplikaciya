@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="372dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@android:color/white"
+            android:fontFamily="@font/roboto"
+            android:text="Войти с Яндекс"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:translationX="18dp"
+            android:translationY="660dp"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:translationX="-65dp"
+            android:translationY="40dp"
+            app:srcCompat="@drawable/fsa" />
+
+        <TextView
+            android:id="@+id/vxemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="Вход по E-mail"
+            android:textColor="#7E7E9A"
+            android:translationX="18dp"
+            android:translationY="207dp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/panelema"
+            android:ems="10"
+            android:hint="example@mail.ru"
+            android:inputType="textEmailAddress"
+            android:scaleX="1"
+            android:textColor="#80000000"
+            android:textColorHighlight="#80000000"
+            android:textColorHint="#80000000"
+            android:textColorLink="#80000000"
+            android:translationY="210dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="376dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/roboto"
+            android:text="Далее"
+            android:textAlignment="center"
+            android:backgroundTint="#1A6FEE"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:translationX="18dp"
+            android:translationY="235dp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/voidite"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:scaleX="1.03"
+            android:text="Войдите, чтобы пользоваться функциями \nприложения"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:translationX="24dp"
+            android:translationY="-60dp" />
+
+        <TextView
+            android:id="@+id/orvoidite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="Или войдите с помощью"
+            android:textAlignment="center"
+            android:textColor="#7E7E9A"
+            android:translationY="370dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
